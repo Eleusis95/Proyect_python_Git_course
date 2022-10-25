@@ -10,6 +10,7 @@ class Alumno(Person):
         return self.school
     def __get_year(self):
         return self.year
+        
     def __set__school(self,new_school):
         self.school = new_school
 
