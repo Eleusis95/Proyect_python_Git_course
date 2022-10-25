@@ -10,6 +10,10 @@ class Alumno(Person):
         return self.school
     def __get_year(self):
         return self.year
+    def __set_school(self,new_school):
+        new = new_school
+        if new is not None:
+            self.school = new
 
     def __str__(self):
         return f"{Person.__str__(self)} and studies at school : {self.__get_school()} and is in {self.__get_year()}"
