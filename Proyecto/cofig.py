@@ -1,0 +1,1 @@
+items_counter = 0
