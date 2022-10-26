@@ -1,2 +1,2 @@
 items_counter = 50
-iten
+iten = 0
