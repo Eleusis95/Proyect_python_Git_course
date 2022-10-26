@@ -1,1 +1,1 @@
-items_counter = 10
+items_counter = 50
